@@ -13,12 +13,21 @@
 // const imagen = document.getElementById('imagen')
 // imagen.alt = 'Esto es una imagen'
 // imagen.src = 'https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745'
-let numeros = []
-function calcularOperaciones(){
-    let numeroUno = document.getElementById('numeroUno')
-    let numeroDos = parseInt(document.getElementById('numeroDos').value)
-    let resultados = document.getElementById('resultados')
-    resultados.textContent = parseInt(numeroUno.value)+numeroDos
-    numeros.push(parseInt(resultados.textContent))
-    console.log(numeros)
-}
+// let numeros = []
+// function calcularOperaciones(){
+//     let numeroUno = document.getElementById('numeroUno')
+//     let numeroDos = parseInt(document.getElementById('numeroDos').value)
+//     let resultados = document.getElementById('resultados')
+//     let suma = parseInt(numeroUno.value)+numeroDos
+//     let contenedor = document.createElement('p')
+//     let titulo = document.createElement('a')
+//     titulo.href = 'https://www.google.com'
+//     titulo.textContent = 'Esto es un enlace'
+//     contenedor.textContent = suma
+//     resultados.append(titulo,contenedor)
+//     // contenedor.textContent = 'Eso es un parrafo creado desde JS'
+//     console.log(contenedor)
+//     numeros.push(parseInt(resultados.textContent))
+//     console.log(numeros)
+// }
+
