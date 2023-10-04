@@ -31,3 +31,12 @@
 //     console.log(numeros)
 // }
 
+const agregarImagen = () => {
+  let numeroImagen = document.getElementById("imagen").value;
+  let imagen = document.createElement("img");
+  let imagenes = document.getElementById("imagenes");
+  imagen.alt = "Pokemon #" + numeroImagen;
+  imagen.src = "./assets/img/" + numeroImagen + ".png";
+  imagenes.append(imagen);
+  console.log(imagen);
+};
