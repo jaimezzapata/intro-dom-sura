@@ -31,12 +31,26 @@
 //     console.log(numeros)
 // }
 
-const agregarImagen = () => {
-  let numeroImagen = document.getElementById("imagen").value;
-  let imagen = document.createElement("img");
-  let imagenes = document.getElementById("imagenes");
-  imagen.alt = "Pokemon #" + numeroImagen;
-  imagen.src = "./assets/img/" + numeroImagen + ".png";
-  imagenes.append(imagen);
-  console.log(imagen);
-};
+// const agregarImagen = () => {
+//   let numeroImagen = document.getElementById("imagen").value;
+//   let imagenes = document.getElementById("imagenes");
+//   let imagen = document.createElement("img");
+//   imagen.classList.add('imagen', 'btn')
+//   imagen.alt = "Pokemon #" + numeroImagen;
+//   imagen.src = "./assets/img/" + numeroImagen + ".png";
+//   imagenes.append(imagen);
+//   console.log(imagen);
+// };
+
+const crearPaleta = () => {
+    let sectionUno = document.getElementById('sectionUno')
+    let sectionDos = document.getElementById('sectionDos')
+    let sectionTres = document.getElementById('sectionTres')
+    let colorUno = document.getElementById('colorUno')
+    let colorDos = document.getElementById('colorDos')
+    let colorTres = document.getElementById('colorTres')
+    console.log(colorUno.value)
+    sectionUno.style.backgroundColor = colorUno.value
+    sectionDos.style.backgroundColor = colorDos.value
+    sectionTres.style.backgroundColor = colorTres.value
+}

@@ -1,0 +1,12 @@
+.imagen{
+    width: 250px;
+    background-color: purple;
+    transition: ease-in-out 2s;
+}
+
+.imagen:hover{
+    background-color: #ffff;
+    cursor: pointer;
+    transform: translate(25px,25px) rotate(90deg);
+    border-radius: 50%;
+}
